@@ -1,16 +1,20 @@
+import { useState } from "react";
+
 function CartPage() {
-  // just read directly every time page loads
-  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+  // read from localStorage only at the start
+  const [cart, setCart] = useState(
+    JSON.parse(localStorage.getItem("cart")) || []
+  );
 
   function removeItem(id) {
     let updated = cart.filter((item) => item.id !== id);
     localStorage.setItem("cart", JSON.stringify(updated));
-    window.location.reload(); // quick way to update page
+    setCart(updated); // update state instead of reload
   }
 
   function clearCart() {
     localStorage.removeItem("cart");
-    window.location.reload();
+    setCart([]); // clear state
   }
 
   if (cart.length === 0) {
