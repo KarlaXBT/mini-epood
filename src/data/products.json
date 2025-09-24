@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Õun",
+    "price": 0.5,
+    "category": "Puuviljad",
+    "image": "https://picsum.photos/seed/apple/200"
+  },
+  {
+    "id": 2,
+    "name": "Banaan",
+    "price": 0.7,
+    "category": "Puuviljad",
+    "image": "https://picsum.photos/seed/banana/200"
+  },
+  {
+    "id": 3,
+    "name": "Kohv",
+    "price": 3.2,
+    "category": "Joogid",
+    "image": "https://picsum.photos/seed/coffee/200"
+  },
+  {
+    "id": 4,
+    "name": "Piim",
+    "price": 1.1,
+    "category": "Joogid",
+    "image": "https://picsum.photos/seed/milk/200"
+  },
+  {
+    "id": 5,
+    "name": "Leib",
+    "price": 1.5,
+    "category": "Saiatooted",
+    "image": "https://picsum.photos/seed/bread/200"
+  },
+  {
+    "id": 6,
+    "name": "Juust",
+    "price": 2.8,
+    "category": "Piimatooted",
+    "image": "https://picsum.photos/seed/cheese/200"
+  },
+  {
+    "id": 7,
+    "name": "Šokolaad",
+    "price": 1.9,
+    "category": "Maiustused",
+    "image": "https://picsum.photos/seed/chocolate/200"
+  },
+  {
+    "id": 8,
+    "name": "Tomat",
+    "price": 0.9,
+    "category": "Köögiviljad",
+    "image": "https://picsum.photos/seed/tomato/200"
+  },
+  {
+    "id": 9,
+    "name": "Kurk",
+    "price": 0.8,
+    "category": "Köögiviljad",
+    "image": "https://picsum.photos/seed/cucumber/200"
+  },
+  {
+    "id": 10,
+    "name": "Pasta",
+    "price": 2.3,
+    "category": "Kuivained",
+    "image": "https://picsum.photos/seed/pasta/200"
+  }
+]
