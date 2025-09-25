@@ -1,11 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 function HomePage() {
+  const { t } = useTranslation();
+
   return (
     <div>
-      <h1>Welcome to My E-Shop</h1>
-      <p>
-        Browse our collection and discover products you’ll love. Add your
-        favorites to the cart and enjoy a smooth shopping experience.
-      </p>
+      <h1>{t("welcomeTitle")}</h1>
+      <p>{t("welcomeText")}</p>
     </div>
   );
 }

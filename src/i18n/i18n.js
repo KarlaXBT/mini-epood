@@ -30,6 +30,9 @@ const resources = {
       remove: "Remove",
       total: "Total",
       clearCart: "Clear Cart",
+      welcomeTitle: "Welcome to My E-Shop",
+      welcomeText:
+        "Browse our collection and discover products you’ll love. Add your favorites to the cart and enjoy a smooth shopping experience.",
     },
   },
   fi: {
@@ -58,6 +61,9 @@ const resources = {
       remove: "Poista",
       total: "Yhteensä",
       clearCart: "Tyhjennä kori",
+      welcomeTitle: "Tervetuloa verkkokauppaamme",
+      welcomeText:
+        "Selaa kokoelmaamme ja löydä tuotteita, joista tulet pitämään. Lisää suosikkisi ostoskoriin ja nauti sujuvasta ostokokemuksesta.",
     },
   },
   et: {
@@ -86,6 +92,9 @@ const resources = {
       remove: "Eemalda",
       total: "Kokku",
       clearCart: "Tühjenda ostukorv",
+      welcomeTitle: "Tere tulemast minu e-poodi",
+      welcomeText:
+        "Sirvige meie kollektsiooni ja avastage tooteid, mida armastate. Lisage lemmikud ostukorvi ja nautige sujuvat ostukogemust.",
     },
   },
 };
