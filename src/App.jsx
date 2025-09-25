@@ -8,6 +8,7 @@ import ProductCard from "./components/ProductCard";
 import ProductDetails from "./pages/ProductDetails";
 import CartPage from "./pages/CartPage";
 import { useState } from "react";
+import i18n from "./i18n/i18n";
 
 function App() {
   // need to know if mode is saved to localStorage,  if not it will be false,
@@ -30,6 +31,32 @@ function App() {
         <br />
 
         <button onClick={() => setMode(!isDarkMode)}>☀️ / 🌙</button>
+        <button
+          onClick={() => {
+            i18n.changeLanguage("en");
+            localStorage.setItem("language", "en");
+          }}
+        >
+          English
+        </button>
+
+        <button
+          onClick={() => {
+            i18n.changeLanguage("fi");
+            localStorage.setItem("language", "fi");
+          }}
+        >
+          Suomi
+        </button>
+
+        <button
+          onClick={() => {
+            i18n.changeLanguage("et");
+            localStorage.setItem("language", "et");
+          }}
+        >
+          Eesti
+        </button>
         <br />
         <Routes>
           <Route path="/" element={<HomePage />} />

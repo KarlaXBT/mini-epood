@@ -1,39 +1,31 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function About() {
+  const { t } = useTranslation();
+
   return (
     <div>
       {/* Hero / Intro */}
-      <h1>Welcome to Our Shop!</h1>
-      <p>
-        We are passionate about providing quality products and excellent
-        service. Our mission is to make your shopping experience simple, fast,
-        and enjoyable.
-      </p>
+      <h1>{t("heroTitle")}</h1>
+      <p>{t("heroText")}</p>
 
       {/* Our Story */}
-      <h2>Our Story</h2>
-      <p>
-        Founded in 2025, our company was created to bring the best products to
-        our customers. We value quality, reliability, and a personal touch in
-        everything we do.
-      </p>
+      <h2>{t("storyTitle")}</h2>
+      <p>{t("storyText")}</p>
 
       {/* Values / Highlights */}
-      <h2>What We Stand For</h2>
+      <h2>{t("valuesTitle")}</h2>
       <ul>
-        <li>High-quality products at fair prices</li>
-        <li>Fast and reliable shipping</li>
-        <li>Customer satisfaction is our top priority</li>
-        <li>Continuous improvement and innovation</li>
+        <li>{t("value1")}</li>
+        <li>{t("value2")}</li>
+        <li>{t("value3")}</li>
+        <li>{t("value4")}</li>
       </ul>
 
       {/* Optional Fun Fact */}
-      <h2>Did You Know?</h2>
-      <p>
-        In our first year, we shipped over 500 packages to happy customers all
-        around the country!
-      </p>
+      <h2>{t("funTitle")}</h2>
+      <p>{t("funText")}</p>
     </div>
   );
 }

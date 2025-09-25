@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function CartPage() {
-  // read from localStorage only at the start
+  const { i18n } = useTranslation();
+  const { t } = useTranslation();
   const [cart, setCart] = useState(
     JSON.parse(localStorage.getItem("cart")) || []
   );
@@ -9,12 +11,12 @@ function CartPage() {
   function removeItem(id) {
     let updated = cart.filter((item) => item.id !== id);
     localStorage.setItem("cart", JSON.stringify(updated));
-    setCart(updated); // update state instead of reload
+    setCart(updated);
   }
 
   function clearCart() {
     localStorage.removeItem("cart");
-    setCart([]); // clear state
+    setCart([]);
   }
 
   if (cart.length === 0) {
@@ -23,21 +25,21 @@ function CartPage() {
 
   return (
     <div>
-      <h2>Shopping Cart</h2>
+      <h2>{t("shoppingcart")}</h2>
       <ul>
         {cart.map((item) => (
           <li key={item.id}>
-            {item.name} – {item.qty} × {item.price} €
-            <button onClick={() => removeItem(item.id)}>Remove</button>
+            {item.name[i18n.language]} – {item.qty} × {item.price} €
+            <button onClick={() => removeItem(item.id)}>{t("remove")}</button>
           </li>
         ))}
       </ul>
       <p>
         <strong>
-          Total: {cart.reduce((sum, i) => sum + i.qty * i.price, 0)} €
+          {t("total")}: {cart.reduce((sum, i) => sum + i.qty * i.price, 0)} €
         </strong>
       </p>
-      <button onClick={clearCart}>Clear Cart</button>
+      <button onClick={clearCart}>{t("clearCart")}</button>
     </div>
   );
 }

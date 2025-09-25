@@ -1,72 +1,119 @@
 [
   {
     "id": 1,
-    "name": "Õun",
+    "name": { "en": "Apple", "fi": "Omena", "et": "Õun" },
     "price": 0.5,
-    "category": "Puuviljad",
+    "category": { "en": "Fruits", "fi": "Hedelmät", "et": "Puuviljad" },
     "image": "https://picsum.photos/seed/apple/200"
   },
   {
     "id": 2,
-    "name": "Banaan",
+    "name": { "en": "Banana", "fi": "Banaani", "et": "Banaan" },
     "price": 0.7,
-    "category": "Puuviljad",
+    "category": { "en": "Fruits", "fi": "Hedelmät", "et": "Puuviljad" },
     "image": "https://picsum.photos/seed/banana/200"
   },
   {
     "id": 3,
-    "name": "Kohv",
+    "name": { "en": "Coffee", "fi": "Kahvi", "et": "Kohv" },
     "price": 3.2,
-    "category": "Joogid",
+    "category": { "en": "Drinks", "fi": "Juomat", "et": "Joogid" },
     "image": "https://picsum.photos/seed/coffee/200"
   },
   {
     "id": 4,
-    "name": "Piim",
+    "name": { "en": "Milk", "fi": "Maito", "et": "Piim" },
     "price": 1.1,
-    "category": "Joogid",
+    "category": { "en": "Drinks", "fi": "Juomat", "et": "Joogid" },
     "image": "https://picsum.photos/seed/milk/200"
   },
   {
     "id": 5,
-    "name": "Leib",
+    "name": { "en": "Bread", "fi": "Leipä", "et": "Leib" },
     "price": 1.5,
-    "category": "Saiatooted",
+    "category": { "en": "Bakery", "fi": "Leipomo", "et": "Saiatooted" },
     "image": "https://picsum.photos/seed/bread/200"
   },
   {
     "id": 6,
-    "name": "Juust",
+    "name": { "en": "Cheese", "fi": "Juusto", "et": "Juust" },
     "price": 2.8,
-    "category": "Piimatooted",
+    "category": { "en": "Dairy", "fi": "Maitotuotteet", "et": "Piimatooted" },
     "image": "https://picsum.photos/seed/cheese/200"
   },
   {
     "id": 7,
-    "name": "Šokolaad",
+    "name": { "en": "Chocolate", "fi": "Suklaa", "et": "Šokolaad" },
     "price": 1.9,
-    "category": "Maiustused",
+    "category": { "en": "Sweets", "fi": "Makeiset", "et": "Maiustused" },
     "image": "https://picsum.photos/seed/chocolate/200"
   },
   {
     "id": 8,
-    "name": "Tomat",
+    "name": { "en": "Tomato", "fi": "Tomaatti", "et": "Tomat" },
     "price": 0.9,
-    "category": "Köögiviljad",
+    "category": {
+      "en": "Vegetables",
+      "fi": "Vihannekset",
+      "et": "Köögiviljad"
+    },
     "image": "https://picsum.photos/seed/tomato/200"
   },
   {
     "id": 9,
-    "name": "Kurk",
+    "name": { "en": "Cucumber", "fi": "Kurkk", "et": "Kurk" },
     "price": 0.8,
-    "category": "Köögiviljad",
+    "category": {
+      "en": "Vegetables",
+      "fi": "Vihannekset",
+      "et": "Köögiviljad"
+    },
     "image": "https://picsum.photos/seed/cucumber/200"
   },
   {
     "id": 10,
-    "name": "Pasta",
+    "name": { "en": "Pasta", "fi": "Pasta", "et": "Pasta" },
     "price": 2.3,
-    "category": "Kuivained",
+    "category": { "en": "Dry Goods", "fi": "Kuivatuotteet", "et": "Kuivained" },
     "image": "https://picsum.photos/seed/pasta/200"
+  },
+  {
+    "id": 11,
+    "name": { "en": "Orange", "fi": "Appelsiini", "et": "Apelsin" },
+    "price": 0.6,
+    "category": { "en": "Fruits", "fi": "Hedelmät", "et": "Puuviljad" },
+    "image": "https://picsum.photos/seed/orange/200"
+  },
+  {
+    "id": 12,
+    "name": { "en": "Yogurt", "fi": "Jogurtti", "et": "Jogurt" },
+    "price": 1.2,
+    "category": { "en": "Dairy", "fi": "Maitotuotteet", "et": "Piimatooted" },
+    "image": "https://picsum.photos/seed/yogurt/200"
+  },
+  {
+    "id": 13,
+    "name": { "en": "Strawberry", "fi": "Mansikka", "et": "Maasikas" },
+    "price": 2.0,
+    "category": { "en": "Fruits", "fi": "Hedelmät", "et": "Puuviljad" },
+    "image": "https://picsum.photos/seed/strawberry/200"
+  },
+  {
+    "id": 14,
+    "name": { "en": "Butter", "fi": "Voi", "et": "Või" },
+    "price": 1.5,
+    "category": { "en": "Dairy", "fi": "Maitotuotteet", "et": "Piimatooted" },
+    "image": "https://picsum.photos/seed/butter/200"
+  },
+  {
+    "id": 15,
+    "name": { "en": "Carrot", "fi": "Porkkana", "et": "Porgand" },
+    "price": 0.4,
+    "category": {
+      "en": "Vegetables",
+      "fi": "Vihannekset",
+      "et": "Köögiviljad"
+    },
+    "image": "https://picsum.photos/seed/carrot/200"
   }
 ]
