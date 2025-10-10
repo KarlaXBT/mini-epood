@@ -9,7 +9,7 @@ function CartPage() {
   );
 
   function removeItem(id) {
-    let updated = cart.filter((item) => item.id !== id);
+    const updated = cart.filter((item) => item.id !== id);
     localStorage.setItem("cart", JSON.stringify(updated));
     setCart(updated);
   }

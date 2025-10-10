@@ -15,8 +15,8 @@ function ProductDetails() {
   }
 
   function addsToCart() {
-    let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    let exists = cart.find((item) => item.id === product.id);
+    const cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const exists = cart.find((item) => item.id === product.id);
 
     if (exists) {
       exists.qty += 1;
